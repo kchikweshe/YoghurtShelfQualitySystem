@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 4, 2016 8:29:16 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.ysqms.model.YoghurtSample" table="YoghurtSample">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="bostwick_Value" type="java.lang.String">
+            <column name="BostwickValue" />
+        </property>
+        <property name="temperature" type="java.lang.String">
+            <column name="Temperature" />
+        </property>
+        <property name="criticalTemperature" type="java.lang.String">
+            <column name="CriticalTemperature" />
+        </property>
+        <property name="shelfTime" type="java.lang.String">
+            <column name="ShelfTime" />
+        </property>
+        <property name="totalSolids" type="java.lang.String">
+        <column name="TotalSolids" />
+    </property>
+        <property name="ph" type="java.lang.String">
+            <column name="PH" />
+        </property>
+    </class>
+</hibernate-mapping>

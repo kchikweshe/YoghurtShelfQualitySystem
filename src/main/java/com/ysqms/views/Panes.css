@@ -1,0 +1,26 @@
+#pane {
+    -fx-background-color: #454545;
+}
+
+#detailPane{
+    -fx-alignment: center;
+    -fx-background-color: #ffffff;
+}
+#APane{
+
+    -fx-border-color: darkmagenta;
+}
+ #resultPane {
+    -fx-background-color:#ffffff;
+ }
+
+#navPane{
+    -fx-background-color: #454545;
+}
+#groupPane{
+    --fxbackground-color: azure;
+}
+#primaryBanner,#secondaryBanner{
+    -fx-background-color: darkmagenta;
+
+}
